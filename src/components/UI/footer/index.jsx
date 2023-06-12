@@ -8,7 +8,7 @@ export default function Footer() {
         <div className={cls.Footer}>
             <div className={cls.Footer__contianer}>
                 <Logo />
-                <p className={cls.Footer__title}>IT va Innovatsion g'oyalar markazi</p>
+                <p className={cls.Footer__title}>IT va Innovatsion goyalar markazi</p>
                 <p className={cls.Footer__text}>Kompaniya 2018 yildan buyon zamonaviy IT-mahsulotlar va veb-saytlarni ishlab chiqishda
                     davom etmoqda, individual yechimlari bilan mijozlar qalbini zabt etibgina qolmay hamma uchun sifatli yechimlarni taklif etishda davom etmoqda.</p>
                 <div className={cls.Footer__Nav}>

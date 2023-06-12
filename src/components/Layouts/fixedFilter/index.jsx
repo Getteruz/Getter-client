@@ -19,35 +19,35 @@ export default function FixedFilter() {
                             {
                                 filter && <div>
                                     {filter?.map(e => (
-                                        <p className={cls.FixedFilter__content__link}>{e?.text}</p>
+                                        <p key={e?.id} className={cls.FixedFilter__content__link}>{e?.text}</p>
                                     ))}
                                 </div>
                             }
                             {
                                 filter && <div>
                                     {filter?.map(e => (
-                                        <p className={cls.FixedFilter__content__link}>{e?.text}</p>
+                                        <p key={e?.id} className={cls.FixedFilter__content__link}>{e?.text}</p>
                                     ))}
                                 </div>
                             }
                             {
                                 filter && <div>
                                     {filter?.map(e => (
-                                        <p className={cls.FixedFilter__content__link}>{e?.text}</p>
+                                        <p key={e?.id} className={cls.FixedFilter__content__link}>{e?.text}</p>
                                     ))}
                                 </div>
                             }
                             {
                                 filter && <div>
                                     {filter?.map(e => (
-                                        <p className={cls.FixedFilter__content__link}>{e?.text}</p>
+                                        <p key={e?.id} className={cls.FixedFilter__content__link}>{e?.text}</p>
                                     ))}
                                 </div>
                             }
                         </div>
                         <div className={cls.FixedFilter__right}>
                             <p className={cls.FixedFilter__content__link}>+998 95 122-44-72</p>
-                            <p className={cls.FixedFilter__content__link}>Toshkent shahar. M.Ulug'bek tumani. Parkent ko'chasi 131 A</p>
+                            <p className={cls.FixedFilter__content__link}>Toshkent shahar. M.Ulugbek tumani. Parkent kochasi 131 A</p>
                             <p className={cls.FixedFilter__content__link}>info@gmail.uz</p>
                         </div>
                     </div>
