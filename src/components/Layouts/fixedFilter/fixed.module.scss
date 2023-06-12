@@ -1,0 +1,243 @@
+.FixedFilter {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: 0 72px;
+    z-index: 10 !important;
+
+    &__wrap {
+        max-width: 1556px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        transition: .5s all ease;
+        overflow: hidden;
+        z-index: 10 !important;
+
+    }
+
+    &__wrapOpen {
+        background: rgba(29, 29, 31, 0.1);
+        backdrop-filter: blur(160px);
+        border-radius: 21px;
+    }
+
+
+    &__top {
+        background: rgba(29, 29, 31, 0.5);
+        backdrop-filter: blur(75px);
+        border-radius: 16px;
+        z-index: 10 !important;
+        width: 100%;
+        transform: translateY(500px);
+        transition: 1.3s all ease;
+        height: 0;
+
+
+    }
+
+    &__content {
+        padding: 62px 55px 94px 55px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &__left {
+            display: flex;
+            align-items: flex-start;
+            gap: 55px;
+        }
+
+        &__link {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+            margin-bottom: 31px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 12px;
+                height: 1px;
+                background: #FFFFFF;
+                margin-right: 14px;
+            }
+        }
+    }
+
+    &__right {
+        width: 100%;
+        max-width: 385px;
+
+        p {
+            justify-content: flex-end;
+
+        }
+    }
+
+    &__topOpen {
+        transform: translateY(0px);
+        height: 321px;
+    }
+
+    &__botton {
+        background: rgba(29, 29, 31, 0.5);
+        backdrop-filter: blur(25px);
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__Flter {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+
+    &__humberger {
+        background: #1D1D1F;
+        backdrop-filter: blur(50px);
+        border-radius: 8px;
+
+        height: 44px;
+        width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div {
+            background: #FFFFFF;
+            width: 21px;
+            height: 1px;
+            position: relative;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 21px;
+                height: 1px;
+                background: #FFFFFF;
+                position: absolute;
+                top: -5px;
+                left: 0;
+
+            }
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 21px;
+                height: 1px;
+                background: #FFFFFF;
+                position: absolute;
+                top: 5px;
+                left: 0;
+
+            }
+        }
+    }
+
+    &__logo {
+        background: #7000FF;
+        backdrop-filter: blur(50px);
+        border-radius: 8px;
+        padding: 8px 18px;
+        border: none;
+    }
+
+    &__SearchInput {
+        background: #1D1D1F;
+        opacity: 0.8;
+        backdrop-filter: blur(50px);
+        border-radius: 8px;
+        padding: 15px 13px;
+        padding-left: 44px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+
+        color: rgb(255, 255, 255, 0.2);
+        outline: none;
+
+        color: #FFFFFF;
+        border: none;
+        background-image: url('/search.svg');
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center left 13px;
+
+
+
+        &::placeholder {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.03em;
+
+            color: rgb(255, 255, 255, 0.2);
+        }
+    }
+
+    &__Links {
+        display: flex;
+        align-items: center;
+
+        &__left {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-right: 46px;
+        }
+
+        &__text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__sosiad {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-right: 22px;
+
+        &__link {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    &__profile {
+        width: 44px;
+        height: 44px;
+        background: #1D1D1F;
+        backdrop-filter: blur(50px);
+        border-radius: 8px;
+    }
+
+}

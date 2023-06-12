@@ -1,0 +1,95 @@
+.Footer {
+    &__contianer {
+        width: 100%;
+        max-width: 963px;
+        padding: 122px 15px;
+        margin: 0 auto;
+        padding-bottom: 250px;
+        text-align: center;
+
+        @media only screen and (max-width: 800px) {
+            padding: 100px 15px;
+        }
+    }
+
+    &__logo {
+        width: 128px;
+        height: 55px;
+
+    }
+
+    &__title {
+
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        color: #1D1D1F;
+
+        opacity: 0.7;
+        margin-top: 6px;
+
+    }
+
+    &__text {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 100%;
+        max-width: 709px;
+        color: #1D1D1F;
+        margin: 30px auto;
+        opacity: 0.4;
+
+        @media only screen and (max-width: 800px) {
+            margin: 16px auto;
+        }
+    }
+
+    &__Nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+
+        @media only screen and (max-width: 800px) {
+            gap: 20px;
+        }
+
+        &__item {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            color: #1D1D1F;
+            opacity: 0.7;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+
+        &__item {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            color: #1D1D1F;
+            opacity: 0.4;
+        }
+    }
+}

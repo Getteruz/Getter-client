@@ -1,0 +1,22 @@
+.CategoryBtn {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #414141;
+
+    border: 1px solid #cccccc66;
+    border-radius: 4px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+
+    button {
+        border: none;
+        background-color: transparent;
+        z-index: 2;
+        transform: translateY(1.6px);
+    }
+}

@@ -1,0 +1,65 @@
+.Navbar {
+
+    &__logo {
+        text-align: center;
+        margin-top: 49px;
+    }
+
+    &__list {
+        position: sticky;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        background-color: #F1F1F1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 14px;
+        gap: 2px;
+        z-index: 10;
+    }
+
+    &__active {
+        background: #7000FF;
+        backdrop-filter: blur(50px);
+        color: #FFFFFF !important;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    &__link {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #1D1D1F;
+        padding: 14px 23px;
+        border: 1px solid #E4E4E4;
+        backdrop-filter: blur(50px);
+        display: inline-block;
+        cursor: pointer;
+
+    }
+
+    &__btn {
+        background: #FFFFFF;
+        backdrop-filter: blur(50px);
+        border-radius: 60px;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    &__btnactive {
+        background-color: #7000FF;
+    }
+}
