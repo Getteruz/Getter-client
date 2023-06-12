@@ -1,25 +1,23 @@
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import CategoryBtn from '../../UI/buttuns/category'
+import TopSiteCatd from '../../UI/Cards/TopSite'
 import Container from '../../UI/Container'
 import { XIcon } from '../../UI/icons'
-import { category } from "./data"
+import { Cards, category } from "./data"
 
 import cls from "./Home.module.scss"
 export default function HomePage() {
     const router = useRouter()
     const [categoryId, setCatgeryId] = useState(['All'])
-
+    console.log(router?.query?.openFilter)
     return (
         <Container>
-            <div className={cls.home__Filter}>
-                {router?.query?.openFilter == "true" && <>
+            {router?.query?.openFilter == "true" ?
+                <div className={cls.home__Filter}>
                     <CategoryBtn
                         className={`${categoryId.includes("All") ? cls.CategoryBtnActove : ""}`}
                         onClick={() => {
-                            if (categoryId.includes("All")) {
-                                router.replace({ query: { openFilter: "false" } })
-                            }
                             setCatgeryId(["All"])
                         }}>
                         Barcha maqolalar
@@ -42,12 +40,17 @@ export default function HomePage() {
                             </>
                         ))
                     }
-                </>
 
+                </div> : ""
+            }
+
+            <div className={cls.home__Cards}>
+                {
+                    Cards && Cards?.map(e => (
+                        <TopSiteCatd img={e?.image} />
+                    ))
                 }
-
             </div>
-
         </Container >
     )
 }

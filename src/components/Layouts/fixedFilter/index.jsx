@@ -12,8 +12,8 @@ export default function FixedFilter() {
 
     return (
         <div className={cls.FixedFilter}>
-            <div className={`${cls.FixedFilter__wrap} ${openCategory && cls.FixedFilter__wrapOpen}`}>
-                <div className={`${cls.FixedFilter__top} ${openCategory && cls.FixedFilter__topOpen}`}>
+            <div className={`${cls.FixedFilter__wrap} ${openCategory ? cls.FixedFilter__wrapOpen : cls.FixedFilter__wrapClose}`}>
+                <div className={`${cls.FixedFilter__top} ${openCategory ? cls.FixedFilter__topOpen : cls.FixedFilter__topClose}`}>
                     <div className={cls.FixedFilter__content}>
                         <div className={cls.FixedFilter__content__left} >
                             {

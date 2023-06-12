@@ -10,16 +10,17 @@
         width: 100%;
         margin: 0 auto;
         padding: 10px;
-        transition: .5s all ease;
+        transition: 0.6s all ease-in;
         overflow: hidden;
         z-index: 10 !important;
-
     }
+
 
     &__wrapOpen {
         background: rgba(29, 29, 31, 0.1);
         backdrop-filter: blur(160px);
         border-radius: 21px;
+        height: auto;
     }
 
 
@@ -29,12 +30,17 @@
         border-radius: 16px;
         z-index: 10 !important;
         width: 100%;
-        transform: translateY(500px);
-        transition: 1.3s all ease;
-        height: 0;
-
-
+        transition: 0.6s all ease-out;
     }
+
+    &__topClose {
+        height: 0;
+    }
+
+    &__topOpen {
+        height: 321px;
+    }
+
 
     &__content {
         padding: 62px 55px 94px 55px;
@@ -87,10 +93,7 @@
         }
     }
 
-    &__topOpen {
-        transform: translateY(0px);
-        height: 321px;
-    }
+
 
     &__botton {
         background: rgba(29, 29, 31, 0.5);
@@ -240,4 +243,8 @@
         border-radius: 8px;
     }
 
+}
+
+@keyframes test {
+    0% {}
 }

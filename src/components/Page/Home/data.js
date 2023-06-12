@@ -41,3 +41,38 @@ export const category = [
         text:"Marketing",
     }
 ]
+
+
+export const Cards = [
+    {
+        id: 1,
+        image:'/Card.png',
+        title: "O'zb Temiryo'llari AJ",
+        text:"LLC:Evolusion"
+    },
+    {
+        id: 2,
+        image:'/Card.png',
+        title: "O'zb Temiryo'llari AJ",
+        text:"LLC:Evolusion"
+    },
+    {
+        id: 3,
+        image:'/Card.png',
+        title: "O'zb Temiryo'llari AJ",
+        text:"LLC:Evolusion"
+    },
+    {
+        id: 4,
+        image:'/Card.png',
+        title: "O'zb Temiryo'llari AJ",
+        text:"LLC:Evolusion"
+    },
+    {
+        id: 5,
+        image:'/Card.png',
+        title: "O'zb Temiryo'llari AJ",
+        text:"LLC:Evolusion"
+    },
+
+]
