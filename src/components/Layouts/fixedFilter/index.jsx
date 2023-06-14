@@ -54,7 +54,9 @@ export default function FixedFilter() {
                 </div>
                 <div className={cls.FixedFilter__botton}>
                     <div className={cls.FixedFilter__Flter}>
-                        <div onClick={() => setCategory(!openCategory)} className={cls.FixedFilter__humberger}>
+                        <div
+                            onClick={() => setCategory(!openCategory)}
+                            className={`${cls.FixedFilter__humberger} ${openCategory && cls.FixedFilter__openHumberger}`}>
                             <div ></div>
                         </div>
                         <div className={cls.FixedFilter__logo}>
