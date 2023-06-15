@@ -1,0 +1,69 @@
+.Articles {
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 40px;
+
+    &__top {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    &__avatar {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    &__tags {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+
+        &__text {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            color: #1D1D1F;
+            margin-bottom: 2px;
+
+            &:first-child {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 21px;
+
+        &__text {
+            display: flex;
+            align-items: center;
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            color: #1D1D1F;
+            gap: 5px;
+        }
+    }
+
+    &__title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+
+        color: #1D1D1F;
+        margin-bottom: 32px;
+    }
+}

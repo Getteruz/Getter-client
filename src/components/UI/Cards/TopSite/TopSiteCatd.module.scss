@@ -1,6 +1,85 @@
 .TopSiteCatd {
-    max-width: calc((100% - 20px)/3);
+
     width: 100%;
-    position: relative;
-    aspect-ratio: 14/9;
+    padding: 10px;
+
+    &:hover {
+        .TopSiteCatd__wrap {
+            display: flex;
+        }
+    }
+
+    &__wrap {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(100% - 20px);
+        background: rgba(29, 29, 31, 0.4);
+        backdrop-filter: blur(22px);
+        border-radius: 8px;
+        padding: 5px;
+        padding-left: 12px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+    }
+
+    &__ava {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    &__title {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+
+    }
+
+    &__like {
+        display: flex;
+        gap: 5px;
+        align-items: flex-end;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding: 11px 9px;
+        background: linear-gradient(197.57deg, rgba(0, 0, 0, 0) -631.96%, rgba(0, 0, 0, 0.2) 165.34%);
+        backdrop-filter: blur(22px);
+        border-radius: 7px;
+        border: none;
+
+        &:nth-child(2) {
+            padding: 11px;
+        }
+    }
 }

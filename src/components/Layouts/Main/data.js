@@ -1,7 +1,7 @@
 export const Link = [
     {
         id: 1,
-        link: '/',
+        link: '/topSite',
         label: "O'zbeksiton Top saytlar",
         btnLink:"/recommend-site"
     },

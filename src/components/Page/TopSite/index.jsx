@@ -7,10 +7,10 @@ import { XIcon } from '../../UI/icons'
 import { Cards, category } from "./data"
 
 import cls from "./Home.module.scss"
-export default function HomePage() {
+export default function TopSitePage() {
     const router = useRouter()
     const [categoryId, setCatgeryId] = useState(['All'])
-    console.log(router?.query?.openFilter)
+
     return (
         <Container>
             {router?.query?.openFilter == "true" ?
@@ -47,7 +47,7 @@ export default function HomePage() {
             <div className={cls.home__Cards}>
                 {
                     Cards && Cards?.map(e => (
-                        <TopSiteCatd key={e?.id} img={e?.image} />
+                        <TopSiteCatd className={cls.home__Card} key={e?.id} img={e?.image} link={'/'} text={e?.text} title={e?.title} />
                     ))
                 }
             </div>
