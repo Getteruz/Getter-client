@@ -15,8 +15,8 @@ export default function ArticlesCard({ avatar, tag = [], like, commit, title, te
                         alt="ava"
                     />
                     {tag && <div className={cls.Articles__tags}>
-                        {tag?.slice(0, 3).map(e => (
-                            <p className={cls.Articles__tags__text}>{e}</p>
+                        {tag?.slice(0, 3).map(e, i => (
+                            <p key={i} className={cls.Articles__tags__text}>{e}</p>
                         ))}
                     </div>
                     }

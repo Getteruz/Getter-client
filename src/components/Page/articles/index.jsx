@@ -49,6 +49,7 @@ export default function ArticlesPage() {
                     articles && <div className={cls.ArticlesPage__wrap}>
                         {articles?.map(e => (
                             <ArticlesCard
+                                key={e?.id}
                                 avatar={e?.avatar}
                                 tag={e?.tag}
                                 like={e?.like}
@@ -64,6 +65,7 @@ export default function ArticlesPage() {
                     articles && <div className={cls.ArticlesPage__wrap}>
                         {articles?.map(e => (
                             <ArticlesCard
+                                key={e?.id}
                                 avatar={e?.avatar}
                                 tag={e?.tag}
                                 like={e?.like}
@@ -79,6 +81,7 @@ export default function ArticlesPage() {
                     articles && <div className={cls.ArticlesPage__wrap}>
                         {articles?.map(e => (
                             <ArticlesCard
+                                key={e?.id}
                                 avatar={e?.avatar}
                                 tag={e?.tag}
                                 like={e?.like}

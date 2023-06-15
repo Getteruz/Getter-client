@@ -23,8 +23,9 @@ export default function TopSiteCatd({ img, title, text, user, onClick, link, onL
                         <p className={cls.TopSiteCatd__text}>{text}</p>
                     </div>
                     <div className={cls.TopSiteCatd__ava}>
-                        {user && user?.map(e => (
+                        {user && user?.map((e, i) => (
                             <Image
+                                key={i}
                                 className={cls.TopSiteCatd__ava__img}
                                 src={e}
                                 width={40}
