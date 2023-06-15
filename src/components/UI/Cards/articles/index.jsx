@@ -35,7 +35,7 @@ export default function ArticlesCard({ avatar, tag = [], like, commit, title, te
                     width={251}
                     height={251}
                     object-fit="cover"
-                    alt="img"
+                    alt="imgage"
                 /> :
                 <p className={cls.Articles__text}>{text}</p>}
         </div>
