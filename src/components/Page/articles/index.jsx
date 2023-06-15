@@ -57,12 +57,14 @@ export default function ArticlesPage() {
                                 title={e?.text}
                                 text={e?.title}
                                 img={e?.imgae}
+                                style={{ padding: "35px 48px 40px 30px" }}
                             />
                         ))}
                     </div>
                 }
                 {
                     articles && <div className={cls.ArticlesPage__wrap}>
+                        <input className={cls.ArticlesPage__search} type="text" placeholder='+ Что нового?' />
                         {articles?.map(e => (
                             <ArticlesCard
                                 key={e?.id}
@@ -73,6 +75,10 @@ export default function ArticlesPage() {
                                 title={e?.text}
                                 text={e?.title}
                                 img={e?.imgae}
+                                center={true}
+                                likeUser={e?.avatars}
+                                commitUser={e?.avatars}
+                                style={{ paddingBottom: "31px" }}
                             />
                         ))}
                     </div>

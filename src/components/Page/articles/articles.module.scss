@@ -24,18 +24,28 @@
         position: relative;
         width: 100%;
         max-width: 455px;
-        // height: 100vh;
-  // overflow-y: scroll;
 
-
-
-  // &::-webkit-scrollbar {
-  //     width: 0px;
-  // }
 
         &:nth-child(2) {
             max-width: 772px;
         }
+    }
+
+    &__search {
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: -0.03em;
+        padding: 18px;
+        color: #1D1D1F;
+        border: none;
+        outline: none;
+        margin-top: 10px;
     }
 
 }

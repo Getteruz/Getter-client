@@ -64,6 +64,107 @@
         line-height: 30px;
 
         color: #1D1D1F;
-        margin-bottom: 32px;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 580px;
+    }
+
+    &__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1D1D1F;
+        opacity: 0.8;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 580px;
+    }
+
+    &__img {
+        margin-top: 31px;
+    }
+
+    &__img1 {
+        margin-top: 15px;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        &__wrap {
+            display: flex;
+            align-items: center;
+
+            width: 100%;
+            max-width: calc(50% - 1px);
+            padding: 13px 15px;
+
+            background: #F7F7F7;
+            border-radius: 8px;
+        }
+
+        &__avatar {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        &__ava {
+            width: 32px;
+            height: 32px;
+            border: 2px solid #F7F7F7;
+            border-radius: 50%;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:nth-child(2) {
+                transform: translate(-14px);
+                z-index: 4;
+            }
+
+            &:nth-child(3) {
+                transform: translate(-28px);
+                z-index: 3;
+            }
+
+            &:nth-child(4) {
+                transform: translate(-32px);
+                z-index: 2;
+            }
+
+            &:hover {
+                z-index: 10;
+            }
+        }
+
+        &__text {
+            display: flex;
+            align-items: center;
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            color: #1D1D1F;
+            margin-left: 5px;
+            margin-right: 15px;
+        }
+
+        &__text1 {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+
+            color: #000000;
+        }
     }
 }

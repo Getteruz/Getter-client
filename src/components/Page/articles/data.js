@@ -50,7 +50,7 @@ export const articles = [
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
         imgae: '/Ellipse1452.png',
-        avatar: ['/user.svg', '/user.svg', '/user.svg'],
+        avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
     },
@@ -60,8 +60,8 @@ export const articles = [
         avatar: '/user.svg',
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
-        imgae: '/Ellipse1452.png',
-        avatar: ['/user.svg', '/user.svg', '/user.svg'],
+  
+        avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
     },
@@ -72,7 +72,7 @@ export const articles = [
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
         imgae: '/Ellipse1452.png',
-        avatar: ['/user.svg', '/user.svg', '/user.svg'],
+        avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
     },
@@ -83,7 +83,7 @@ export const articles = [
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
         imgae: '/Ellipse1452.png',
-        avatar: ['/user.svg', '/user.svg', '/user.svg'],
+        avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
     },
@@ -94,7 +94,7 @@ export const articles = [
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
         imgae: '/Ellipse1452.png',
-        avatar: ['/user.svg', '/user.svg', '/user.svg'],
+        avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
     }
