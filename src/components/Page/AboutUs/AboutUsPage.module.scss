@@ -65,12 +65,13 @@
         }
 
         &::-webkit-scrollbar-thumb {
-            background: #888;
+            background: #7000FF;
+            border-left: 2px solid #7000FF;
+            border-right: 2px solid #7000FF;
+
         }
 
-        &::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
+
 
         &__text {
             font-family: 'Outfit';

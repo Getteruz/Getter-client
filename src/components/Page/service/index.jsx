@@ -21,6 +21,7 @@ export default function ServicePage() {
                     width={220}
                     height={278}
                     objectFit="cover"
+                    alt='img'
                 />
 
             </div>

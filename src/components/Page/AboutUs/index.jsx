@@ -6,7 +6,7 @@ export default function AboutUsPage() {
     return (
         <div className={cls.AboutUsPage}>
             <p className={cls.AboutUsPage__span}>Biz haqimizda</p>
-            <h2 className={cls.AboutUsPage__title}>Biz raqamli dunyoda eng ajoyib mo'jizalarni yaratamiz!</h2>
+            <h2 className={cls.AboutUsPage__title}>Biz raqamli dunyoda eng ajoyib mojizalarni yaratamiz!</h2>
             <div className={cls.AboutUsPage__btn__wrap}>
                 <button className={cls.AboutUsPage__btn}>Konsultatsiya olish tekin</button>
             </div>
