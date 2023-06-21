@@ -1,0 +1,48 @@
+.ServicePage {
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+
+        &__content {
+            width: 100%;
+            max-width: 387px;
+            margin-top: 16px;
+        }
+
+        &__title {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -0.01em;
+            color: #1D1D1F;
+            opacity: 0.9;
+        }
+
+        &__span {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #373737;
+            opacity: 0.5;
+            margin-top: 6px;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #373737;
+            padding-top: 21px;
+            opacity: 0.8;
+            border-top: 1px solid rgb(29, 29, 31, .2);
+        }
+    }
+}

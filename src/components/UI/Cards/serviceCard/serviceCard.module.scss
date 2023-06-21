@@ -1,0 +1,70 @@
+.ServiceCard {
+
+    &:first-child {
+        margin-top: 61px;
+    }
+
+    max-width: 607px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 36px;
+    border-top: 1px solid rgb(29, 29, 31, .1);
+
+    &__title {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        color: #1D1D1F;
+        opacity: 0.9;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+
+            color: #5200FF;
+        }
+    }
+
+    &__text {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #373737;
+
+        opacity: 0.8;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        max-width: 590px;
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    &__arr {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+
+        color: #5200FF;
+        margin-left: 35px;
+        margin-top: 20px;
+
+        cursor: pointer;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.SearchInput {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 17px 47px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    color: #1D1D1F;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    background-image: url('/public/search.svg');
+    background-position: center left 17px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}

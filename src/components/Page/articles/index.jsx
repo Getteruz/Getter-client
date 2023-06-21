@@ -65,7 +65,7 @@ export default function ArticlesPage() {
                 {
                     articles && <div className={cls.ArticlesPage__wrap}>
                         <input className={cls.ArticlesPage__search} type="text" placeholder='+ Что нового?' />
-                        {articles?.map(e => (
+                        {articles?.slice(0, 4).map(e => (
                             <ArticlesCard
                                 key={e?.id}
                                 avatar={e?.avatar}
