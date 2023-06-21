@@ -8,8 +8,8 @@ export default function ServiceCard({ title, text, arr = [], number, ...other })
             <p className={cls.ServiceCard__text}>{text}</p>
             <ul>
                 {
-                    arr && arr.map(e => (
-                        <li className={cls.ServiceCard__arr}>{e}</li>
+                    arr && arr.map((e, i) => (
+                        <li key={i} className={cls.ServiceCard__arr}>{e}</li>
                     ))
                 }
             </ul>

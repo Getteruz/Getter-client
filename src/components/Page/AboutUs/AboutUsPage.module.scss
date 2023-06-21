@@ -1,0 +1,90 @@
+.AboutUsPage {
+    &__span {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+
+        color: #7000FF;
+        margin-top: 76px;
+        margin-bottom: 37px;
+        text-align: center;
+    }
+
+    &__title {
+
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 76px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #1D1D1F;
+        opacity: 0.9;
+        width: 100%;
+        max-width: 742px;
+        margin: 0 auto;
+        margin-bottom: 66px;
+    }
+
+    &__btn {
+        background: linear-gradient(102.55deg, #AD00FF -2.74%, #0D00A0 101.85%);
+        border-radius: 8px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+        padding: 16px 30px;
+        border: none;
+
+        &__wrap {
+            text-align: center;
+        }
+    }
+
+    &__wrap {
+        width: 100%;
+        max-width: 701px;
+        margin: 0 auto;
+        margin-top: 73px;
+        height: 691px;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            width: 1px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: rgb(29, 29, 31, .1);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        &__text {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: #323234;
+
+            opacity: 0.8;
+            padding: 50px;
+            background-color: #FFFFFF;
+            width: 100%;
+            max-width: 670px;
+        }
+    }
+}

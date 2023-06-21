@@ -1,7 +1,9 @@
+import AboutUsPage from "../components/Page/AboutUs";
+
 export default function AboutUs() {
     return (
       <>
-     index
+     <AboutUsPage/>
       </>
     )
   }
