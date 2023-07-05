@@ -1,4 +1,6 @@
 import React from 'react'
+import ServiceCard from '../../UI/Cards/serviceCard'
+import TeamCard from '../../UI/Cards/TeamCard'
 import ContainerSmoll from '../../UI/Container/LitleContainer'
 import cls from "./AboutUsPage.module.scss"
 
@@ -24,7 +26,16 @@ export default function AboutUsPage() {
                 </p>
             </div>
             <ContainerSmoll>
-
+                <ServiceCard
+                    style={{ border: "none", marginTop: "100px" }}
+                    number={""}
+                    title={"Bizning oilamiz"}
+                    text={"— Создание и поддержка пользовательских программ и приложений для различных платформ, включая веб-приложения, мобильные приложения и настольные приложения."}
+                    arr={["Jamoaga qo'shilish", "FAQ"]}
+                />
+                <div className={cls.AboutUsPage__team}>
+                    {/* <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} /> */}
+                </div>
             </ContainerSmoll>
         </div>
     )

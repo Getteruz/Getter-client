@@ -17,7 +17,7 @@ export default function ServicePage() {
                     <p className={cls.ServicePage__wrap__text}>Мы IT-фирма, предоставляющая услуги разработки программного обеспечения и веб-проектов.</p>
                 </div>
                 <Image
-                    src='/public/service.png'
+                    src='/service.png'
                     width={220}
                     height={278}
                     objectFit="cover"

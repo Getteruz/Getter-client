@@ -7,7 +7,7 @@ import { XIcon } from '../../UI/icons'
 import { Cards, category } from "./data"
 
 import cls from "./Home.module.scss"
-export default function TopSitePage() {
+export default function TopSitePage({ data }) {
     const router = useRouter()
     const [categoryId, setCatgeryId] = useState(['All'])
 
@@ -46,8 +46,8 @@ export default function TopSitePage() {
 
             <div className={cls.home__Cards}>
                 {
-                    Cards && Cards?.map(e => (
-                        <TopSiteCatd className={cls.home__Card} key={e?.id} img={e?.image} link={'/'} text={e?.text} title={e?.title} />
+                    data && data?.map(e => (
+                        <TopSiteCatd className={cls.home__Card} key={e?.id} img={e?.avatar?.url} link={'/'} text={e?.text} title={e?.title} />
                     ))
                 }
             </div>
