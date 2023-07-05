@@ -7,7 +7,7 @@ import { XIcon } from '../../UI/icons'
 import { Cards, category } from "./data"
 
 import cls from "./portfolio.module.scss"
-export default function PortfolioPage() {
+export default function PortfolioPage({ data }) {
     const router = useRouter()
     const [categoryId, setCatgeryId] = useState(['All'])
 
@@ -46,10 +46,10 @@ export default function PortfolioPage() {
 
             <div className={cls.home__Cards}>
                 {
-                    Cards && Cards?.map(e => (
+                    data && data?.map(e => (
                         <TopSiteCatd
                             className={cls.home__Card}
-                            key={e?.id} img={e?.image}
+                            key={e?.id} img={e?.avatar?.url}
                             link={'/'}
                             user={['/user.svg', '/user.svg', '/user.svg']}
                             text={e?.text}
