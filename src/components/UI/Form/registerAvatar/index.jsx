@@ -13,7 +13,7 @@ export default function RegisterAvatar({ onChange, file, ...other }) {
                     width={102}
                     height={102}
                     objectFit="cover"
-                    alt='img'
+                    alt='imge'
                 /> : <UserIcon />}
             </div>
             <p className={cls.RegisterAvatar__text}>Profil avatarini yuklang!</p>
