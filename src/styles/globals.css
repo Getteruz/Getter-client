@@ -25,6 +25,13 @@ button{
   
 
 }
+.css-1869usk-MuiFormControl-root{
+  margin: 0;
+  width: 100%;
+}
+.css-llrb4p-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root{
+  background-color: transparent !important;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

@@ -5,11 +5,12 @@ import cls from "./fixed.module.scss"
 
 import { filter, Links } from "./data"
 import Link from "next/link"
+import { useRouter } from "next/router"
 
 
 export default function FixedFilter() {
     const [openCategory, setCategory] = useState(false)
-
+    const router = useRouter()
     return (
         <div className={cls.FixedFilter}>
             <div className={`${cls.FixedFilter__wrap}  ${openCategory ? cls.FixedFilter__wrapOpen : cls.FixedFilter__wrapClose}`}
@@ -89,7 +90,7 @@ export default function FixedFilter() {
                                     <TelegramIcon />
                                 </Link>
                             </div>
-                            <div className={cls.FixedFilter__profile}></div>
+                            <div className={cls.FixedFilter__profile} onClick={() => router.push("/user-page")}></div>
                         </div>
                     </div>
                 </div>

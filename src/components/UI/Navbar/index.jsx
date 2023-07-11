@@ -11,7 +11,7 @@ export default function Navbar({ link = [] }) {
     return (
         < >
             <div className={cls.Navbar__logo}> <Logo /></div>
-            {NotLowList?.includes(router.pathname) ? <p className={cls.Navbar__text}>IT va Innovatsion G'oyalar Markazi</p>
+            {NotLowList?.includes(router.pathname) ? <p className={cls.Navbar__text}>IT va Innovatsion G`oyalar Markazi</p>
                 : <> {
                     link && <ul className={cls.Navbar__list}>
                         {link?.map(e => (

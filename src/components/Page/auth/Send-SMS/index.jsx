@@ -9,7 +9,7 @@ export default function SendSmsPage() {
     return (
         <div className={cls.LoginPage}>
             <h3 className={cls.LoginPage__title}>
-                Ro'yhatdan o'tish
+                Ro`yhatdan o`tish
             </h3>
 
             <form className={cls.LoginPage__form}>
@@ -17,7 +17,7 @@ export default function SendSmsPage() {
 
                 <BlueButtuns>Keyingisi</BlueButtuns>
             </form>
-            <GrueButtun >Ro'yhatdan o'tish</GrueButtun>
+            <GrueButtun>Kirish</GrueButtun>
             <GoogleBtn style={{ marginTop: "10px" }} />
         </div>
     )

@@ -34,7 +34,7 @@ export default function InputSms({ ...other }) {
             <p className={cls.InputSms__label}>SMS kod</p>
             <div className={cls.InputSms__input} >
                 {otp?.map((_, index) => (
-                    <input ref={index === activeOpt ? inputRef : null} type="number" placeholder='-'
+                    <input key={index} ref={index === activeOpt ? inputRef : null} type="number" placeholder='-'
                         onChange={handleChane}
                         onKeyDown={(e) => handleKeyDown(e, index)}
                         value={otp[index]}

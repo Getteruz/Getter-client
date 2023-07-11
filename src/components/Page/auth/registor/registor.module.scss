@@ -1,0 +1,30 @@
+.RegisterPage {
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 53px;
+    margin-bottom: 265px;
+
+    &__form {
+        margin-top: 44px;
+        margin-bottom: 50px;
+    }
+
+    &__verify {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+            cursor: pointer;
+        &__text {
+            color: #1D1D1F;
+            font-family: Outfit;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+}

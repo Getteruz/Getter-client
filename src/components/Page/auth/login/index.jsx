@@ -17,7 +17,7 @@ export default function LoginPage() {
                 <InputLogin label={"Elektron pochta:"} style={{ marginBottom: "50px" }} />
                 <BlueButtuns>Kirish</BlueButtuns>
             </form>
-            <GrueButtun >Ro'yhatdan o'tish</GrueButtun>
+            <GrueButtun >Ro`yhatdan o`tish</GrueButtun>
             <GoogleBtn style={{ marginTop: "10px" }} />
         </div>
     )

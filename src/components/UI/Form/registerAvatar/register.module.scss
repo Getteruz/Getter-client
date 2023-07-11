@@ -1,0 +1,33 @@
+.RegisterAvatar {
+    display: flex;
+    gap: 19px;
+    cursor: pointer;
+
+    input {
+        display: none;
+    }
+
+    &__avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 102px;
+        height: 102px;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: #FFFFFF;
+    }
+
+    &__text {
+        color: #7000FF;
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        width: 100%;
+        max-width: 146px;
+        margin-top: 9px;
+    }
+}

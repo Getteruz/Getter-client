@@ -24,7 +24,7 @@ export default function VerifySmsPage() {
                 <InputSms label={"SMS kod"} style={{ marginBottom: "50px" }} />
                 <BlueButtuns>Tasdiqlash</BlueButtuns>
             </form>
-            <GrueButtun >Ro'yhatdan o'tish</GrueButtun>
+            <GrueButtun >Kirish</GrueButtun>
             <GoogleBtn style={{ marginTop: "10px" }} />
         </div>
     )
