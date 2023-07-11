@@ -1,4 +1,5 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material'
+import { useRouter } from 'next/router'
 import React from 'react'
 import BlueButtuns from '../../../UI/buttuns/blue'
 import GoogleBtn from '../../../UI/buttuns/Google'
@@ -10,6 +11,7 @@ import { LeftIcon } from '../../../UI/icons'
 import cls from "./registor.module.scss"
 
 export default function RegisterPage() {
+    const router = useRouter()
     return (
         <div className={cls.RegisterPage}>
             <div className={cls.RegisterPage__verify} >
@@ -22,7 +24,7 @@ export default function RegisterPage() {
                 <SelectRegister />
                 <BlueButtuns style={{ marginTop: "50px" }} >Komunitiga kirish</BlueButtuns>
             </form>
-            <GrueButtun >Kirish</GrueButtun>
+            <GrueButtun onClick={() => router.push('/auth/login')} >Kirish</GrueButtun>
             <GoogleBtn style={{ marginTop: "10px" }} />
         </div>
     )

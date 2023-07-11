@@ -90,7 +90,7 @@ export default function FixedFilter() {
                                     <TelegramIcon />
                                 </Link>
                             </div>
-                            <div className={cls.FixedFilter__profile} onClick={() => router.push("/user-page")}></div>
+                            <div className={cls.FixedFilter__profile} onClick={() => router.push("/user")}></div>
                         </div>
                     </div>
                 </div>

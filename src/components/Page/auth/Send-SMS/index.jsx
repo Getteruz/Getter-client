@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import React from 'react'
 import BlueButtuns from '../../../UI/buttuns/blue'
 import GoogleBtn from '../../../UI/buttuns/Google'
@@ -6,6 +7,7 @@ import InputLogin from '../../../UI/Form/loginInput'
 import cls from "./Login.module.scss"
 
 export default function SendSmsPage() {
+    const router = useRouter()
     return (
         <div className={cls.LoginPage}>
             <h3 className={cls.LoginPage__title}>
@@ -17,7 +19,7 @@ export default function SendSmsPage() {
 
                 <BlueButtuns>Keyingisi</BlueButtuns>
             </form>
-            <GrueButtun>Kirish</GrueButtun>
+            <GrueButtun onClick={() => router.push('/auth/login')}>Kirish</GrueButtun>
             <GoogleBtn style={{ marginTop: "10px" }} />
         </div>
     )
