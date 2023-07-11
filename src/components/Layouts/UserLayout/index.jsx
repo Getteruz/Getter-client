@@ -16,6 +16,7 @@ export default function UserLayout({ children }) {
                 <div className={cls.UserLayout__user}>
                     <div className={cls.UserLayout__user__img}>
                         <Image
+                            alt='img'
                             src={'/user.svg'}
                             width={52}
                             height={52}
@@ -31,13 +32,13 @@ export default function UserLayout({ children }) {
             <div className={cls.UserLayout__content}>
                 <div className={cls.UserLayout__navbar}>
                     {NavLink && NavLink?.map(e => (
-                        <div>
+                        <div key={e?.id}>
                             <Link href={e?.link} className={`${cls.UserLayout__navbar__link} ${router.pathname === e?.link ? cls.UserLayout__navbar__linkActive : ""}`} >
                                 {e?.icon(router.pathname === e?.link ? "#7000FF" : "#1D1D1F")}
                                 {e?.label}
                             </Link>
                             {e?.children && e?.children?.map(el => (
-                                <p onClick={() => router.push(el?.link)}
+                                <p key={el?.id} onClick={() => router.push(el?.link)}
                                     className={`${cls.UserLayout__navbar__linkChild} ${router.pathname === el?.link ?
                                         cls.UserLayout__navbar__linkActive : ""}`}>
                                     {el?.icon(router.pathname === el?.link ? "#7000FF" : "#1D1D1F")}
