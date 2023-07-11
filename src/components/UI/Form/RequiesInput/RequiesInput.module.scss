@@ -1,0 +1,25 @@
+.RequiesInput {
+    width: 100%;
+    color: #373737;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+
+
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(50, 50, 52, .2);
+
+    &::placeholder {
+        color: #373737;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

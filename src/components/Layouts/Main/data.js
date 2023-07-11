@@ -28,3 +28,5 @@ export const Link = [
         label:"Biz haqimizda"
     }
 ]
+
+export const  AllowFooter = ['/','/aboutUs','/service','/articles', '/portfolio','/topSite']

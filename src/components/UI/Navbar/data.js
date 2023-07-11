@@ -1,0 +1,1 @@
+export const NotLowList= ['/auth/login',"/auth/send-sms","/auth/verify-sms"]

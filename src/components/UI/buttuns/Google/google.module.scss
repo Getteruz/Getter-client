@@ -1,0 +1,23 @@
+.GoogleBtn {
+    background: #FFF;
+    border: none;
+    color: #1D1D1F;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    width: 100%;
+    padding: 21px 20px;
+}

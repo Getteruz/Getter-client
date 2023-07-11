@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+
 import ServiceCard from '../../UI/Cards/serviceCard'
 import ContainerSmoll from '../../UI/Container/LitleContainer'
 import SearchInput from '../../UI/Form/search'
 import cls from "./service.module.scss"
+
 
 export default function ServicePage() {
     return (

@@ -1,9 +1,10 @@
 import React from 'react'
+import cls from "./blueBtn.module.scss"
 
-export default function BlueButtuns({ children, onClick, onChange, OnSubmit, ...other }) {
+export default function BlueButtuns({ children, type = "buttun", onClick, onChange, OnSubmit, ...other }) {
     return (
-        <button className={cls.BlueButtuns}>
-            hello
+        <button className={cls.BlueButtuns} type={type} >
+            {children}
         </button>
     )
 }

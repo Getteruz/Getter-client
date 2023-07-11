@@ -19,9 +19,6 @@
 
 
     &__wrapOpen {
-        background: rgba(29, 29, 31, 0.1);
-        backdrop-filter: blur(160px);
-
         height: auto;
         z-index: 10 !important;
 
@@ -31,18 +28,24 @@
     &__top {
         background: rgba(29, 29, 31, 0.5);
         backdrop-filter: blur(75px);
-        border-radius: 16px;
+        border-radius: 8px;
         z-index: 10 !important;
         width: 100%;
         transition: 0.6s all ease;
+        overflow: hidden;
+
+
     }
 
     &__topClose {
         height: 0;
+
     }
 
     &__topOpen {
-        height: 321px;
+        height: 380px;
+        margin-bottom: 5px;
+
     }
 
 
@@ -103,12 +106,15 @@
         background: rgba(29, 29, 31, 0.5);
         backdrop-filter: blur(25px);
         border-radius: 10px;
-        margin-top: 10px;
-        padding: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+
+        &__wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 
     &__Flter {
@@ -128,6 +134,7 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
+
         div {
             background: #FFFFFF;
             width: 21px;

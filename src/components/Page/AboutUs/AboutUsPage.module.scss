@@ -88,4 +88,20 @@
             max-width: 670px;
         }
     }
+
+    &__team {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__form {
+        &__wrap {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+        }
+    }
+
 }

@@ -1,0 +1,31 @@
+.TeamCard {
+    width: 100%;
+    max-width: 190px;
+
+    &__img {
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__title {
+        color: #373737;
+        font-family: Outfit;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 24px;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    &__name {
+        color: #373737;
+        font-family: Outfit;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}

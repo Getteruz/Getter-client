@@ -1,0 +1,59 @@
+.InputSms {
+    display: inline-block;
+    border-bottom: 1px solid #E6E6E6;
+    width: 100%;
+    padding-bottom: 24px;
+
+    &__label {
+        color: #1D1D1F;
+        font-family: Outfit;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    &__input {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+
+    }
+
+    input {
+        width: 13px;
+        color: #1D1D1F;
+        font-family: Outfit;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+        background: transparent;
+        outline: none;
+
+
+        &::placeholder {
+            color: #1D1D1F;
+            font-family: Outfit;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-top: 20px;
+        }
+    }
+}

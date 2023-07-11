@@ -1,0 +1,20 @@
+.UploadText {
+    color: #5200FF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 24px;
+    border-radius: 2px;
+    border: 1px solid rgba(29, 29, 31, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 302px;
+cursor: pointer;
+    &__file {
+        display: none;
+    }
+}

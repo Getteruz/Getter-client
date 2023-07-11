@@ -1,7 +1,11 @@
 import React from 'react'
+
 import ServiceCard from '../../UI/Cards/serviceCard'
 import TeamCard from '../../UI/Cards/TeamCard'
 import ContainerSmoll from '../../UI/Container/LitleContainer'
+import NotRobat from '../../UI/delatls/notRobot'
+import RequiesInput from '../../UI/Form/RequiesInput'
+import UploadText from '../../UI/Form/uploadText'
 import cls from "./AboutUsPage.module.scss"
 
 export default function AboutUsPage() {
@@ -27,15 +31,39 @@ export default function AboutUsPage() {
             </div>
             <ContainerSmoll>
                 <ServiceCard
-                    style={{ border: "none", marginTop: "100px" }}
+                    style={{ border: "none", marginTop: "100px", marginBottom: "88px" }}
                     number={""}
                     title={"Bizning oilamiz"}
                     text={"— Создание и поддержка пользовательских программ и приложений для различных платформ, включая веб-приложения, мобильные приложения и настольные приложения."}
                     arr={["Jamoaga qo'shilish", "FAQ"]}
                 />
                 <div className={cls.AboutUsPage__team}>
-                    {/* <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} /> */}
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
+                    <TeamCard url={'/user.svg'} firtname={"Abbos"} lastname={"Janizakov"} role={"CEO Founder"} style={{ marginBottom: "50px" }} />
                 </div>
+                <ServiceCard
+                    style={{ border: "none", marginTop: "180px", marginBottom: "59px" }}
+                    number={""}
+                    title={"Qayta aloqa"}
+                    text={"— Создание и поддержка пользовательских"}
+                />
+
+                <form className={cls.AboutUsPage__form} style={{ marginBottom: "340px" }}>
+                    <div className={cls.AboutUsPage__form__wrap}>
+                        <RequiesInput placeholder={"Ismingiz"} style={{ marginBottom: "70px" }} />
+                        <RequiesInput placeholder={"+998"} style={{ marginBottom: "70px" }} />
+                    </div>
+                    <RequiesInput placeholder={"Matningizni kiriting"} style={{ marginBottom: "52px" }} />
+                    <UploadText label={"Matningizni kiriting"} />
+
+                    <NotRobat label={"Men Robot emasman ammo na qilay!"} style={{ marginTop: "100px", marginBottom: "59px" }} />
+                    <button className={cls.AboutUsPage__btn} style={{ width: "100%", maxWidth: "182px" }}>Yuborish</button>
+                </form>
             </ContainerSmoll>
         </div>
     )
