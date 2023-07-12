@@ -1,7 +1,7 @@
 export const Link = [
     {
         id: 1,
-        link: '/topSite',
+        link: '/top-site',
         label: "O'zbeksiton Top saytlar",
         btnLink:"/recommend-site"
     },
@@ -24,9 +24,9 @@ export const Link = [
     },
     {
         id: 5,
-        link: '/aboutUs',
+        link: '/about-us',
         label:"Biz haqimizda"
     }
 ]
 
-export const  AllowFooter = ['/','/aboutUs','/service','/articles', '/portfolio','/topSite']
+export const  AllowFooter = ['/','/about-us','/service','/articles', '/portfolio','/top-site']

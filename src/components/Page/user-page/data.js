@@ -1,3 +1,31 @@
+export const categories = [
+    {
+        id: 1,
+        label:"Frontend dasturlash"
+    },
+    {
+        id: 2,
+        label:"backend dasturlash"
+    }
+]
+export const tags = [
+    {
+        id: 1,
+        label:"#html"
+    },
+    {
+        id: 2,
+        label:"#css"
+    },
+    {
+        id: 3,
+        label:"#responsive"
+    },
+    {
+        id: 4,
+        label:"#react"
+    }
+]
 export const category = [
     {
         id: 2,
@@ -49,7 +77,7 @@ export const articles = [
         avatar: '/user.svg',
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
-        imgae: ['/Ellipse1452.png'],
+        imgae: ['/Ellipse1452.png','/Ellipse1452.png'],
         avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
@@ -71,7 +99,7 @@ export const articles = [
         avatar: '/user.svg',
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
-        imgae: ['/Ellipse1452.png'],
+        imgae: ['/Ellipse1452.png',],
         avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
@@ -82,7 +110,7 @@ export const articles = [
         avatar: '/user.svg',
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
-        imgae: ['/Ellipse1452.png'],
+        imgae: ['/Ellipse1452.png',],
         avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42
@@ -93,7 +121,7 @@ export const articles = [
         avatar: '/user.svg',
         text: "Rossiya avtouyda va raqamli dizayn haqida gapirdi",
         title: "На что обратить внимание в рисунке, знаковом составе и начертаниях — рассказываем на примере шрифта PT Root.",
-        imgae: ['/Ellipse1452.png'],
+        imgae: ['/Ellipse1452.png',],
         avatars: ['/user.svg', '/user.svg', '/user.svg'],
         like: 445,
         comment:42

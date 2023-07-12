@@ -1,22 +1,22 @@
 import { useEffect, useState } from "react";
-import PortfolioPage from "../components/page/portfolio";
-import { GetPortfolio } from "../services/portfolio";
+import TopSitePage from "../components/page/top-site";
+import { GetWebSite } from "../services/web-sites";
 
-export default function Portfolio() {
+export default function TopSite() {
   const [data, setData] = useState()
   const [loader , setLoader] = useState(true)
   useEffect(() => {
-   
-    GetPortfolio()
+    GetWebSite()
       .then(data => {
         setData(data?.items)
         setLoader(false)
       })
           .catch(err =>  setLoader(false))
   }, [])
-    return (
-      <>
-        <PortfolioPage data={data} loader={loader} />
-      </>
-    )
-  }
+  return (
+    <>
+    
+      <TopSitePage data={data} loader={loader } />
+    </>
+  )
+}

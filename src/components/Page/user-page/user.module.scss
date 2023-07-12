@@ -1,0 +1,35 @@
+.UserPage {
+    padding-top: 29px;
+    padding-left: 40px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+    &__category {
+        width: 100%;
+        max-width: 223px;
+
+        &__wrap {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            gap: 3px;
+        }
+
+        &__text {
+            color: #1D1D1F;
+            font-family: Outfit;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__btn {
+            color: #7000FF !important;
+            background: rgba(112, 0, 255, 0.20) !important;
+        }
+    }
+
+}

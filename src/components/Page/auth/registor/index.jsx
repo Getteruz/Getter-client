@@ -1,13 +1,15 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material'
 import { useRouter } from 'next/router'
 import React from 'react'
+
 import BlueButtuns from '../../../UI/buttuns/blue'
-import GoogleBtn from '../../../UI/buttuns/Google'
+import GoogleBtn from '../../../UI/buttuns/google'
 import GrueButtun from '../../../UI/buttuns/grue'
-import InputLogin from '../../../UI/Form/loginInput'
-import RegisterAvatar from '../../../UI/Form/registerAvatar'
-import SelectRegister from '../../../UI/Form/registerSelect'
+import InputLogin from '../../../UI/form/login-input'
+import RegisterAvatar from '../../../UI/form/register-avatar'
+import SelectRegister from '../../../UI/form/register-select'
 import { LeftIcon } from '../../../UI/icons'
+
 import cls from "./registor.module.scss"
 
 export default function RegisterPage() {

@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import CategoryBtn from '../../UI/buttuns/category'
-import TopSiteCatd from '../../UI/Cards/TopSite'
-import Container from '../../UI/Container'
+import TopSiteCatd from '../../UI/cards/top-site'
+import Container from '../../UI/container'
 import { XIcon } from '../../UI/icons'
-import { Cards, category } from "./data"
+import { Cards, category, LoderLength } from "./data"
 
 import cls from "./Home.module.scss"
-export default function TopSitePage({ data }) {
+export default function TopSitePage({ data, loader }) {
     const router = useRouter()
     const [categoryId, setCatgeryId] = useState(['All'])
 
@@ -46,9 +46,24 @@ export default function TopSitePage({ data }) {
 
             <div className={cls.home__Cards}>
                 {
-                    data && data?.map(e => (
-                        <TopSiteCatd className={cls.home__Card} key={e?.id} img={e?.avatar?.url} link={'/'} text={e?.text} title={e?.title} />
-                    ))
+                    loader ? LoderLength?.map(e => (
+                        <div key={e} className={cls.home__CardLoader}>
+                            <div className={cls.home__CardLoader__botton}>
+                                <div className={cls.home__CardLoader__left}>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div className={cls.home__CardLoader__right}>
+                                </div>
+                            </div>
+                        </div>
+                    )) : <>
+                        {
+                            data && data?.map(e => (
+                                <TopSiteCatd className={cls.home__Card} key={e?.id} img={e?.avatar?.url} link={'/'} text={e?.text} title={e?.title} />
+                            ))
+                        }
+                    </>
                 }
             </div>
         </Container >

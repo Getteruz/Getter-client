@@ -1,4 +1,4 @@
-import RegisterPage from "../../components/Page/auth/registor";
+import RegisterPage from "../../components/page/auth/registor";
 
 export default function Register() {
   return (

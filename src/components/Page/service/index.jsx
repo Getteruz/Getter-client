@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-import ServiceCard from '../../UI/Cards/serviceCard'
-import ContainerSmoll from '../../UI/Container/LitleContainer'
-import SearchInput from '../../UI/Form/search'
+import ServiceCard from '../../UI/cards/service-card'
+import ContainerSmoll from '../../UI/container/litle-container'
+import SearchInput from '../../UI/form/search'
 import cls from "./service.module.scss"
 
 

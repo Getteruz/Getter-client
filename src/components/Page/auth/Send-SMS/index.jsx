@@ -1,9 +1,10 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 import BlueButtuns from '../../../UI/buttuns/blue'
-import GoogleBtn from '../../../UI/buttuns/Google'
+import GoogleBtn from '../../../UI/buttuns/google'
 import GrueButtun from '../../../UI/buttuns/grue'
-import InputLogin from '../../../UI/Form/loginInput'
+import InputLogin from '../../../UI/form/login-input'
+
 import cls from "./Login.module.scss"
 
 export default function SendSmsPage() {

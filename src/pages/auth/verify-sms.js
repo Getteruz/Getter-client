@@ -1,4 +1,4 @@
-import VerifySmsPage from "../../components/Page/auth/Verefy-SMS";
+import VerifySmsPage from "../../components/page/auth/verefy-sms";
 
 export default function VerifySms() {
   return (

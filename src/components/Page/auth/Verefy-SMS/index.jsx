@@ -1,10 +1,9 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 import BlueButtuns from '../../../UI/buttuns/blue'
-import GoogleBtn from '../../../UI/buttuns/Google'
+import GoogleBtn from '../../../UI/buttuns/google'
 import GrueButtun from '../../../UI/buttuns/grue'
-import InputLogin from '../../../UI/Form/loginInput'
-import InputSms from '../../../UI/Form/sms-input'
+import InputSms from '../../../UI/form/sms-input'
 import { LeftIcon } from '../../../UI/icons'
 import cls from "./Login.module.scss"
 

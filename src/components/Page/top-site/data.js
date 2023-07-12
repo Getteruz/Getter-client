@@ -74,5 +74,7 @@ export const Cards = [
         title: "O'zb Temiryo'llari AJ",
         text:"LLC:Evolusion"
     },
-
+ 
 ]
+
+export const LoderLength = [1,2,3,4,5,6]

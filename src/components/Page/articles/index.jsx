@@ -1,12 +1,14 @@
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
+
 import CategoryBtn from '../../UI/buttuns/category'
-import Container from '../../UI/Container'
+import Container from '../../UI/container'
 import { XIcon } from '../../UI/icons'
-import { articles, category } from "./data"
+import ArticlesCard from '../../UI/cards/articles'
 
 import cls from "./articles.module.scss"
-import ArticlesCard from '../../UI/Cards/articles'
+import { articles, category } from "./data"
+
 export default function ArticlesPage() {
     const router = useRouter()
     const [categoryId, setCatgeryId] = useState(['All'])

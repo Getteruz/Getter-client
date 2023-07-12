@@ -1,11 +1,12 @@
 import React from 'react'
 
-import ServiceCard from '../../UI/Cards/serviceCard'
-import TeamCard from '../../UI/Cards/TeamCard'
-import ContainerSmoll from '../../UI/Container/LitleContainer'
-import NotRobat from '../../UI/delatls/notRobot'
-import RequiesInput from '../../UI/Form/RequiesInput'
-import UploadText from '../../UI/Form/uploadText'
+import ServiceCard from '../../UI/cards/service-card'
+import TeamCard from '../../UI/cards/team-card'
+import ContainerSmoll from '../../UI/container/litle-container'
+import NotRobat from '../../UI/delatls/not-robot'
+import RequiesInput from '../../UI/form/requies-input'
+import UploadText from '../../UI/form/upload-text'
+
 import cls from "./AboutUsPage.module.scss"
 
 export default function AboutUsPage() {

@@ -2,9 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
+
 import { Logo } from '../../UI/icons'
-import { NavLink } from './data'
 import cls from "./UserLayout.module.scss"
+import { NavLink } from './data'
 
 
 export default function UserLayout({ children }) {

@@ -1,10 +1,12 @@
 import { Suspense } from 'react'
-import MainLayout from '../components/Layouts/Main'
-import '../styles/globals.css'
+import MainLayout from '../components/Layouts/main'
 // import NextNProgress from "nextjs-progressbar"
-import FixedFilter from '../components/Layouts/fixedFilter'
+import FixedFilter from '../components/Layouts/fixed-filter'
 import { useRouter } from 'next/router'
-import UserLayout from '../components/Layouts/UserLayout'
+import UserLayout from '../components/Layouts/user-layout'
+
+import '../styles/globals.css'
+
 const UserLink = ['/user','/create-articles','/user-select','/user-messege']
 
 function MyApp({ Component, pageProps }) {

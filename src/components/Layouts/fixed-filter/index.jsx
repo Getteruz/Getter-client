@@ -1,11 +1,11 @@
 import { useState } from "react"
-import { FaceBookIcon, InstaIcon, LogoSmoll, Searchcon, TelegramIcon } from "../../UI/icons"
-import cls from "./fixed.module.scss"
-
-
-import { filter, Links } from "./data"
 import Link from "next/link"
 import { useRouter } from "next/router"
+
+import { FaceBookIcon, InstaIcon, LogoSmoll, Searchcon, TelegramIcon } from "../../UI/icons"
+import { filter, Links } from "./data"
+
+import cls from "./fixed.module.scss"
 
 
 export default function FixedFilter() {

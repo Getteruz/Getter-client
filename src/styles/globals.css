@@ -26,8 +26,8 @@ button{
 
 }
 .css-1869usk-MuiFormControl-root{
-  margin: 0;
-  width: 100%;
+  margin: 0 !important;
+  width: 100% !important;
 }
 .css-llrb4p-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root{
   background-color: transparent !important;
