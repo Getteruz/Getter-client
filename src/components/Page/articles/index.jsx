@@ -2,10 +2,9 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 
 import CategoryBtn from '../../UI/buttuns/category'
+import ArticlesCard from '../../UI/cards/articles'
 import Container from '../../UI/container'
 import { XIcon } from '../../UI/icons'
-import ArticlesCard from '../../UI/cards/articles'
-
 import cls from "./articles.module.scss"
 import { articles, category } from "./data"
 
