@@ -51,7 +51,7 @@ export default function UserPage() {
                         likeUser={e?.avatars}
                         commitUser={e?.avatars}
                         owner={true}
-                        style={{ paddingBottom: "31px", marginBottom: "50px" }}
+                        style={{ paddingBottom: "30px", marginBottom: "50px" }}
                     />
                 ))}
             </div>
