@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PortfolioPage from "../components/page/portfolio";
+import PortfolioPage from "../components/Page/portfolio";
 import { GetPortfolio } from "../services/portfolio";
 
 export default function Portfolio() {

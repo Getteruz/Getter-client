@@ -1,4 +1,4 @@
-import SendSmsPage from "../../components/page/auth/send-sms";
+import SendSmsPage from "../../components/Page/auth/send-sms";
 
 export default function SendSms() {
   return (

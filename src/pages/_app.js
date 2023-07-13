@@ -1,9 +1,9 @@
 import { Suspense } from 'react'
-import MainLayout from '../components/Layouts/main'
+import { useRouter } from 'next/router'
 // import NextNProgress from "nextjs-progressbar"
 import FixedFilter from '../components/Layouts/fixed-filter'
-import { useRouter } from 'next/router'
 import UserLayout from '../components/Layouts/user-layout'
+import MainLayout from '../components/Layouts/main'
 
 import '../styles/globals.css'
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import TopSitePage from "../components/page/top-site";
+import TopSitePage from "../components/Page/top-site";
 import { GetWebSite } from "../services/web-sites";
 
 export default function TopSite() {

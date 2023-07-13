@@ -1,4 +1,4 @@
-import ArticlesPage from "../components/page/articles";
+import ArticlesPage from "../components/Page/articles";
 
 
 
